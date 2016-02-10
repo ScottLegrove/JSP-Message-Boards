@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+main{
+	margin:auto;
+}
+main>form, main>table{
+	margin:auto;
+	width:60%;
+}
+main>form>table, main>table{
+	margin:auto;
+}
+
+.error{
+	margin:auto;
+	width:60%;
+	color:red;
+}
+
+.button{
+	text-decoration:none;
+	border:1px black;
+	border-radius:5px;
+	padding:10px;
+	background:#989898;
+	color:white;
+}
+
+.button:hover{
+	background:#181818;
+}

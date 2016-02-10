@@ -1,0 +1,39 @@
+/* NAV BAR */
+	nav{
+		background:#383838;
+		padding:20px;
+	}
+	
+	nav>h3, nav>ul>li, nav>ul{
+		color:#989898;
+		display:inline;
+		padding:20px;
+		font-family:verdana;
+	}
+		nav>ul>li>a{
+			text-decoration: none;
+			color:#989898;
+			font-family:verdana;
+		}
+		
+	/* NAV EVENTS */
+		nav>ul>li:hover,nav>ul>li>a:hover{
+			color:white;
+			background:#181818;
+		}
+		
+	.logout{
+		background:#383838;
+		border:none;
+		color:#989898;
+		display:inline;
+		vertical-align:middle;
+		float:right;
+		font-family:verdana;
+		text-decoration: none;
+		color:#989898;
+		font-family:verdana;
+	}
+	.logout:hover{
+		color:white
+	}
